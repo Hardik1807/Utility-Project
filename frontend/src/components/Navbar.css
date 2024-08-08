@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 10px 20px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.app-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  position: relative;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background: none;
+  border-radius: 25px;
+  color: #e0e0e0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.tab:hover,
+.tab.active {
+  color: #76b852;
+}
+
+.tab-underline {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: #76b852;
+  transition: width 0.4s ease;
+}
+
+.tab.active .tab-underline,
+.tab:hover .tab-underline 
+ {
+  width: 100%;
+}
+
+.logout-button {
+  background: #76b852;
+  font-size: 19px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 20px;
+  width: 150px;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background: #4a8836;
+}
+
+.l{
+  text-decoration: none;
+}

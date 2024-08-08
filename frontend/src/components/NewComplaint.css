@@ -1,0 +1,124 @@
+.apt-prompt {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.apt-prompt p {
+    color: #e0e0e0;
+    font-size: 14px;
+}
+  
+.apt-prompt a {
+    color: #76b852;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+.apt-prompt a:hover {
+    text-decoration: underline;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f1f1f;
+}
+  
+.form {
+    width: 93%;
+    height:100%
+}
+  
+.apt-form-container {
+    background: #222222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 600px;
+    height: 500px;
+}
+  
+.apt-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%
+}
+  
+.apt-form h2 {
+    color: #e0e0e0;
+    margin-bottom: 20px;
+}
+  
+.new-input-container {
+    position: relative;
+    margin-bottom: 43px;
+    width: 100%;
+}
+  
+.new-input-container input,
+.new-input-container select,
+.new-input-container textarea {
+    width: 100%; 
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #555;
+    color: #e0e0e0;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px; 
+    background-color: #222222; 
+}
+
+.new-input-container textarea {
+    resize: vertical; 
+}
+
+.new-input-container input::placeholder,
+.new-input-container select option {
+    color: #888;
+}
+
+.new-input-container select {
+    background-color: #222222; 
+}
+
+.new-input-container .input-underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background: #76b852;
+    transition: width 0.4s ease;
+}
+
+.new-input-container input:focus ~ .input-underline,
+.new-input-container select:focus ~ .input-underline,
+.new-input-container textarea:focus ~ .input-underline {
+    width: 100%;
+}
+  
+button {
+    width: 100%; 
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #76b852;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+button:hover {
+    background: #4a8836;
+}
+
+img{
+    height: 540px;
+    width: 400px;
+}
+
